@@ -9,7 +9,7 @@ pnpm exec playwright test
 ```
 
 
-> [!WARNING] Caveat
+> [!WARNING]
 > It cannot find the webkit path correctly so disable the testing on webkit. (Chromium, Firefox works fine.) 
 
 
