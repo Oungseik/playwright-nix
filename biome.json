@@ -10,7 +10,7 @@
   "files": {
     "ignoreUnknown": false,
     "includes": [
-      "tests/**/*.spec.ts",
+      "tests/**",
       "!**/node_modules",
       "!**/.svelte-kit",
       "!**/.next",
