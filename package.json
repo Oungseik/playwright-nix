@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "check": "biome check --write .",
+    "check-types": "tsc --noEmit"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",

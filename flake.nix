@@ -25,6 +25,7 @@
       {
         devShell = pkgs.mkShell {
           buildInputs = with pkgs; [
+            biome
             nodejs_24
             pkgs.playwright-test
           ];
